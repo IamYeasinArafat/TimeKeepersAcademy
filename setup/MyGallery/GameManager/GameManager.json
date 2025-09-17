@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.46,
+      -0.46,
+      -0.46
+    ],
+    "max": [
+      0.46,
+      0.46,
+      0.46
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "GameManager",
+      "idToResourceMap": {
+        "0": "GameManager-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "GameManager",
+      "structure": "GameManager",
+      "textureSet": "GameManager",
+      "icon": "GameManager.png"
+    }
+  ],
+  "description": {
+    "name": "GameManager",
+    "icon": "GameManager_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.9.0.0",
+    "created": "2025-05-10T13:23:21+0300AST",
+    "creator": "yeasinarafatrafio"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "GameManager",
+      "format": "a3r",
+      "file": "gamemanager.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "GameManager-textureReference",
+      "format": "a3t",
+      "file": "gamemanager.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "8f699bf4-dbbf-4eb7-b5c8-11ce5372a20a",
+      "height": 120.0,
+      "width": 108.0,
+      "name": "GameManager.png",
+      "format": "image/png",
+      "file": "GameManager.png",
+      "type": "image"
+    },
+    {
+      "uuid": "4d7a6fa6-02cc-473a-b642-1d0f8dd49deb",
+      "height": 120.0,
+      "width": 108.0,
+      "name": "GameManager_cls.png",
+      "format": "image/png",
+      "file": "GameManager_cls.png",
+      "type": "image"
+    }
+  ]
+}

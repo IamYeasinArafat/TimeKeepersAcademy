@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -3.096117,
+      -20.0,
+      -3.094499
+    ],
+    "max": [
+      3.096118,
+      20.00001,
+      3.094499
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "DNA",
+      "idToResourceMap": {
+        "0": "DNA-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "DNA",
+      "structure": "DNA",
+      "textureSet": "DNA",
+      "icon": "DNA.png"
+    }
+  ],
+  "description": {
+    "name": "DNA",
+    "icon": "DNA_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.9.0.0",
+    "created": "2025-05-10T16:40:20+0300AST",
+    "creator": "yeasinarafatrafio"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "DNA",
+      "format": "a3r",
+      "file": "dna.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "DNA-textureReference",
+      "format": "a3t",
+      "file": "dna.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "3fcbbae0-82ab-4259-90df-dbdd7b87d32b",
+      "height": 120.0,
+      "width": 23.0,
+      "name": "DNA.png",
+      "format": "image/png",
+      "file": "DNA.png",
+      "type": "image"
+    },
+    {
+      "uuid": "0cba8288-a7b1-47ad-9475-fdaac923c9a8",
+      "height": 120.0,
+      "width": 23.0,
+      "name": "DNA_cls.png",
+      "format": "image/png",
+      "file": "DNA_cls.png",
+      "type": "image"
+    }
+  ]
+}

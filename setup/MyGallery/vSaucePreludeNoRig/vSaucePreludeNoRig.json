@@ -1,0 +1,177 @@
+{
+  "parentClass": "Biped",
+  "rootJoints": [
+    "ROOT"
+  ],
+  "jointBounds": [],
+  "additionalJoints": [
+    {
+      "name": "LEFT_MIDDLE_FINGER_TIP",
+      "parent": "LEFT_MIDDLE_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_INDEX_FINGER_TIP",
+      "parent": "LEFT_INDEX_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_RING_FINGER",
+      "parent": "LEFT_HAND",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_RING_FINGER_KNUCKLE",
+      "parent": "LEFT_RING_FINGER",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_RING_FINGER_TIP",
+      "parent": "LEFT_RING_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_PINKY_FINGER_TIP",
+      "parent": "LEFT_PINKY_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_THUMB_TIP",
+      "parent": "LEFT_THUMB_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LOWER_LIP",
+      "parent": "MOUTH",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_MIDDLE_FINGER_TIP",
+      "parent": "RIGHT_MIDDLE_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_INDEX_FINGER_TIP",
+      "parent": "RIGHT_INDEX_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_RING_FINGER",
+      "parent": "RIGHT_HAND",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_RING_FINGER_KNUCKLE",
+      "parent": "RIGHT_RING_FINGER",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_RING_FINGER_TIP",
+      "parent": "RIGHT_RING_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_PINKY_FINGER_TIP",
+      "parent": "RIGHT_PINKY_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_THUMB_TIP",
+      "parent": "RIGHT_THUMB_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_TOES",
+      "parent": "LEFT_FOOT",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_TOES",
+      "parent": "RIGHT_FOOT",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2692658,
+      -0.1249896,
+      -1.583715
+    ],
+    "max": [
+      0.3222126,
+      0.2864092,
+      -2.6226E-5
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "vSaucePreludeNoRig",
+      "idToResourceMap": {
+        "0": "vSaucePreludeNoRig-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "vSaucePreludeNoRig",
+      "structure": "vSaucePreludeNoRig",
+      "textureSet": "vSaucePreludeNoRig",
+      "icon": "vSaucePreludeNoRig.png"
+    }
+  ],
+  "description": {
+    "name": "vSaucePreludeNoRig",
+    "icon": "vSaucePreludeNoRig_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.9.0.0",
+    "created": "2025-05-10T22:08:30+0300AST",
+    "creator": "yeasinarafatrafio"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "vSaucePreludeNoRig",
+      "format": "a3r",
+      "file": "vsaucepreludenorig.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "vSaucePreludeNoRig-textureReference",
+      "format": "a3t",
+      "file": "vsaucepreludenorig.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "336dff7b-1e27-4c80-8940-101463dcd639",
+      "height": 120.0,
+      "width": 89.0,
+      "name": "vSaucePreludeNoRig.png",
+      "format": "image/png",
+      "file": "vSaucePreludeNoRig.png",
+      "type": "image"
+    },
+    {
+      "uuid": "564f0d3c-36a3-4200-86a6-5a9a4986f7df",
+      "height": 120.0,
+      "width": 89.0,
+      "name": "vSaucePreludeNoRig_cls.png",
+      "format": "image/png",
+      "file": "vSaucePreludeNoRig_cls.png",
+      "type": "image"
+    }
+  ]
+}

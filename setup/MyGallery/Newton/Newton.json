@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2776677,
+      -0.4997853,
+      -0.2570845
+    ],
+    "max": [
+      0.2850887,
+      0.5001729,
+      0.2647442
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "Newton",
+      "idToResourceMap": {
+        "0": "Newton-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Newton",
+      "structure": "Newton",
+      "textureSet": "Newton",
+      "icon": "Newton.png"
+    }
+  ],
+  "description": {
+    "name": "Newton",
+    "icon": "Newton_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.9.0.0",
+    "created": "2025-05-10T15:47:23+0300AST",
+    "creator": "yeasinarafatrafio"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "Newton",
+      "format": "a3r",
+      "file": "newton.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "Newton-textureReference",
+      "format": "a3t",
+      "file": "newton.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "c071fea4-8a25-464f-836c-f57575bdd96d",
+      "height": 120.0,
+      "width": 58.0,
+      "name": "Newton.png",
+      "format": "image/png",
+      "file": "Newton.png",
+      "type": "image"
+    },
+    {
+      "uuid": "9e500537-2dde-4361-b70b-63cbcc4da4ca",
+      "height": 120.0,
+      "width": 58.0,
+      "name": "Newton_cls.png",
+      "format": "image/png",
+      "file": "Newton_cls.png",
+      "type": "image"
+    }
+  ]
+}

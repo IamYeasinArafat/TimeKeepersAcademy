@@ -1,0 +1,177 @@
+{
+  "parentClass": "Biped",
+  "rootJoints": [
+    "ROOT"
+  ],
+  "jointBounds": [],
+  "additionalJoints": [
+    {
+      "name": "LEFT_MIDDLE_FINGER_TIP",
+      "parent": "LEFT_MIDDLE_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_INDEX_FINGER_TIP",
+      "parent": "LEFT_INDEX_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_RING_FINGER",
+      "parent": "LEFT_HAND",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_RING_FINGER_KNUCKLE",
+      "parent": "LEFT_RING_FINGER",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_RING_FINGER_TIP",
+      "parent": "LEFT_RING_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_PINKY_FINGER_TIP",
+      "parent": "LEFT_PINKY_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_THUMB_TIP",
+      "parent": "LEFT_THUMB_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LOWER_LIP",
+      "parent": "MOUTH",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_MIDDLE_FINGER_TIP",
+      "parent": "RIGHT_MIDDLE_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_INDEX_FINGER_TIP",
+      "parent": "RIGHT_INDEX_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_RING_FINGER",
+      "parent": "RIGHT_HAND",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_RING_FINGER_KNUCKLE",
+      "parent": "RIGHT_RING_FINGER",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_RING_FINGER_TIP",
+      "parent": "RIGHT_RING_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_PINKY_FINGER_TIP",
+      "parent": "RIGHT_PINKY_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_THUMB_TIP",
+      "parent": "RIGHT_THUMB_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_TOES",
+      "parent": "LEFT_FOOT",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_TOES",
+      "parent": "RIGHT_FOOT",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.843297,
+      -0.4601793,
+      -0.9810104
+    ],
+    "max": [
+      0.8208528,
+      0.488539,
+      0.9916809
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "Villain",
+      "idToResourceMap": {
+        "0": "Villain-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Villain",
+      "structure": "Villain",
+      "textureSet": "Villain",
+      "icon": "Villain.png"
+    }
+  ],
+  "description": {
+    "name": "Villain",
+    "icon": "Villain_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.9.0.0",
+    "created": "2025-05-09T19:10:06+0300AST",
+    "creator": "yeasinarafatrafio"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "Villain",
+      "format": "a3r",
+      "file": "villain.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "Villain-textureReference",
+      "format": "a3t",
+      "file": "villain.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "049b2912-2591-4960-bd06-dcf055255810",
+      "height": 120.0,
+      "width": 116.0,
+      "name": "Villain.png",
+      "format": "image/png",
+      "file": "Villain.png",
+      "type": "image"
+    },
+    {
+      "uuid": "2d5f0c64-ef6d-4232-93d3-68a2868e2d15",
+      "height": 120.0,
+      "width": 116.0,
+      "name": "Villain_cls.png",
+      "format": "image/png",
+      "file": "Villain_cls.png",
+      "type": "image"
+    }
+  ]
+}
